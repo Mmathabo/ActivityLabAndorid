@@ -133,7 +133,6 @@ public class ActivityOne extends Activity {
         mRestart++;
         displayCounts();
 
-
     }
 
     @Override
@@ -141,20 +140,21 @@ public class ActivityOne extends Activity {
         super.onDestroy();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG, "Entered the OnDestroy() method");
 
     }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         // TODO:
-        // Save state information with a collection of key-value pairs
-        // 4 lines of code, one for every count variable
+        mCreate = savedInstanceState.getInt(CREATE_KEY);
+        mStart = savedInstanceState.getInt(START_KEY);
+        mResume = savedInstanceState.getInt(RESUME_KEY);
+        mRestart = savedInstanceState.getInt(RESTART_KEY);
     }
 
     // Updates the displayed counters
     public void displayCounts() {
-
 
         mTvCreate.setText("onCreate() calls: " + mCreate);
         mTvStart.setText("onStart() calls: " + mStart);

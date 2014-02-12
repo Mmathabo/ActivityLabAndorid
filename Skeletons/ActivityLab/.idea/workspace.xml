@@ -15,7 +15,8 @@
     <list default="true" id="bd68b92b-c7c5-42b5-9498-cd75c783c16f" name="Default" comment="" />
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/ActivityOne.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392207267777" ignored="false" />
+    <file path="/ActivityOne.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392207392805" ignored="false" />
+    <file path="/ActivityTwo.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392207696417" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +77,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ActivityOne.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ActivityOne.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="0" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.58815026">
+            <state line="134" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="-24.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1541#1806#0" expanded="true" />
                 <element signature="e#1795#1796#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityTwo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="4" selection-start="953" selection-end="953" vertical-scroll-proportion="0.28767124">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +110,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/course/labs/activitylab/ActivityOne.java" />
+        <option value="$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java" />
       </list>
     </option>
   </component>
@@ -342,6 +353,8 @@
       <option name="NETWORK_SPEED" value="full" />
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
     <list size="1">
@@ -375,6 +388,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,6 +463,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/layout/activity_one.xml">
       <provider editor-type-id="text-editor">
@@ -462,12 +480,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="0" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.58815026">
+        <state line="134" column="0" selection-start="3377" selection-end="3377" vertical-scroll-proportion="-24.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1541#1806#0" expanded="true" />
             <element signature="e#1795#1796#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="953" selection-end="953" vertical-scroll-proportion="0.28767124">
+          <folding />
         </state>
       </provider>
     </entry>

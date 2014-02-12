@@ -2,7 +2,6 @@ package course.labs.activitylab;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -17,19 +16,21 @@ public class ActivityTwo extends Activity {
 
 	// String for LogCat documentation
 	private final static String TAG = "Lab-ActivityTwo";
-
+    // TODO:
 	// Lifecycle counters
-
-	// TODO:
-	// Create counter variables for onCreate(), onRestart(), onStart() and
-	// onResume(), called mCreate, etc.
-	// You will need to increment these variables' values when their
-	// corresponding lifecycle methods get called
-
-
+    private Integer mCreate = 0;
+    private Integer mStart = 0;
+    private Integer mResume = 0;
+    private Integer mRestart = 0;
 
 	// TODO: Create variables for each of the TextViews, called
-        // mTvCreate, etc. 
+        // mTvCreate, etc.
+    private TextView mTvCreate;
+    private TextView mTvStart;
+    private TextView mTvResume;
+    private TextView mTvRestart;
+    
+
 
 
 	@Override
