@@ -3,6 +3,7 @@ package course.labs.activitylab;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -63,16 +64,12 @@ public class ActivityTwo extends Activity {
             mRestart = savedInstanceState.getInt(RESTART_KEY);
             mResume = savedInstanceState.getInt(RESUME_KEY);
             mStart = savedInstanceState.getInt(START_KEY);
-          
+
         }
-
         // TODO: Emit LogCat message
-
-
+        Log.i(TAG,"Entered the OnCreate() method");
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface via the displayCounts() method
-
+        mCreate++;
 
     }
 
@@ -83,13 +80,10 @@ public class ActivityTwo extends Activity {
         super.onStart();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG,"Entered the OnStart() method");
 
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
-
-
+        mStart++;
     }
 
     @Override
@@ -97,12 +91,9 @@ public class ActivityTwo extends Activity {
         super.onResume();
 
         // TODO: Emit LogCat message
-
-
+        Log.i(TAG,"Entered the OnResume() method");
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
-
+      mResume++;
 
     }
 
@@ -111,7 +102,7 @@ public class ActivityTwo extends Activity {
         super.onPause();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG,"Entered the OnPause() method");
 
     }
 
@@ -120,6 +111,7 @@ public class ActivityTwo extends Activity {
         super.onStop();
 
         // TODO: Emit LogCat message
+        Log.i(TAG,"Entered the OnStop() method");
 
 
     }
@@ -129,13 +121,10 @@ public class ActivityTwo extends Activity {
         super.onRestart();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG,"Entered the OnRestart() method");
 
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
-
-
+     mRestart++;
     }
 
     @Override
@@ -143,6 +132,7 @@ public class ActivityTwo extends Activity {
         super.onDestroy();
 
         // TODO: Emit LogCat message
+        Log.i(TAG,"Entered the OnDestroy() method");
 
     }
 
