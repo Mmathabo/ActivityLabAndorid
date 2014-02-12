@@ -67,7 +67,7 @@ public class ActivityTwo extends Activity {
 
         }
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnCreate() method");
+        Log.i(TAG, "Entered the OnCreate() method");
         // TODO:
         mCreate++;
 
@@ -80,7 +80,7 @@ public class ActivityTwo extends Activity {
         super.onStart();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnStart() method");
+        Log.i(TAG, "Entered the OnStart() method");
 
         // TODO:
         mStart++;
@@ -91,9 +91,9 @@ public class ActivityTwo extends Activity {
         super.onResume();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnResume() method");
+        Log.i(TAG, "Entered the OnResume() method");
         // TODO:
-      mResume++;
+        mResume++;
 
     }
 
@@ -102,7 +102,7 @@ public class ActivityTwo extends Activity {
         super.onPause();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnPause() method");
+        Log.i(TAG, "Entered the OnPause() method");
 
     }
 
@@ -111,7 +111,7 @@ public class ActivityTwo extends Activity {
         super.onStop();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnStop() method");
+        Log.i(TAG, "Entered the OnStop() method");
 
 
     }
@@ -121,10 +121,10 @@ public class ActivityTwo extends Activity {
         super.onRestart();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnRestart() method");
+        Log.i(TAG, "Entered the OnRestart() method");
 
         // TODO:
-     mRestart++;
+        mRestart++;
     }
 
     @Override
@@ -132,7 +132,7 @@ public class ActivityTwo extends Activity {
         super.onDestroy();
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnDestroy() method");
+        Log.i(TAG, "Entered the OnDestroy() method");
 
     }
 
@@ -140,8 +140,10 @@ public class ActivityTwo extends Activity {
     public void onSaveInstanceState(Bundle savedInstanceState) {
 
         // TODO:
-        // Save counter state information with a collection of key-value pairs
-        // 4 lines of code, one for every count variable
+        mCreate = savedInstanceState.getInt(CREATE_KEY);
+        mRestart = savedInstanceState.getInt(RESTART_KEY);
+        mResume = savedInstanceState.getInt(RESUME_KEY);
+        mStart = savedInstanceState.getInt(START_KEY);
 
 
     }

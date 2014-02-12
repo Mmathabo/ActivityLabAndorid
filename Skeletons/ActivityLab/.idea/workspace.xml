@@ -16,7 +16,7 @@
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ActivityOne.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392207392805" ignored="false" />
-    <file path="/ActivityTwo.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392209217059" ignored="false" />
+    <file path="/ActivityTwo.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392209436772" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <file leaf-file-name="ActivityTwo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="42" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.45327756">
+            <state line="145" column="54" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.50209206">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1603#1855#0" expanded="true" />
@@ -495,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="42" selection-start="3481" selection-end="3481" vertical-scroll-proportion="0.45327756">
+        <state line="145" column="54" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.50209206">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1603#1855#0" expanded="true" />
