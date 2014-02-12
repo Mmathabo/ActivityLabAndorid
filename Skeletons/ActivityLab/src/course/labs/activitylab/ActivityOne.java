@@ -65,11 +65,13 @@ public class ActivityOne extends Activity {
         }
 
         // TODO: Emit LogCat message
-        Log.i(TAG,"Entered the OnCreate() method");
+        Log.i(TAG, "Entered the OnCreate() method");
 
         // TODO:
         mCreate++;
         displayCounts();
+
+
     }
 
     // Lifecycle callback overrides
@@ -79,11 +81,11 @@ public class ActivityOne extends Activity {
         super.onStart();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG, "Entered the OnStart() method");
 
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
+        mStart++;
+        displayCounts();
 
 
     }
@@ -93,11 +95,11 @@ public class ActivityOne extends Activity {
         super.onResume();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG, "Entered the OnResume method");
 
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
+        mResume++;
+        displayCounts();
 
 
     }
@@ -107,6 +109,7 @@ public class ActivityOne extends Activity {
         super.onPause();
 
         // TODO: Emit LogCat message
+        Log.i(TAG, "Entered the OnPause() method");
 
     }
 
@@ -115,6 +118,7 @@ public class ActivityOne extends Activity {
         super.onStop();
 
         // TODO: Emit LogCat message
+        Log.i(TAG, "Entered the OnStop method");
 
     }
 
@@ -123,11 +127,11 @@ public class ActivityOne extends Activity {
         super.onRestart();
 
         // TODO: Emit LogCat message
-
+        Log.i(TAG, "Entered the OnRestart() method");
 
         // TODO:
-        // Update the appropriate count variable
-        // Update the user interface
+        mRestart++;
+        displayCounts();
 
 
     }
@@ -146,8 +150,6 @@ public class ActivityOne extends Activity {
         // TODO:
         // Save state information with a collection of key-value pairs
         // 4 lines of code, one for every count variable
-
-
     }
 
     // Updates the displayed counters
