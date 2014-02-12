@@ -1,6 +1,7 @@
 package course.labs.activitylab;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -34,8 +35,6 @@ public class ActivityOne extends Activity {
         setContentView(R.layout.activity_one);
 
         // TODO: Assign the appropriate TextViews to the TextView variables
-        // Hint: Access the TextView by calling Activity's findViewById()
-        // textView1 = (TextView) findViewById(R.id.textView1);
 
         mTvCreate = (TextView) findViewById(R.id.create);
         mTvRestart = (TextView) findViewById(R.id.restart);
@@ -49,26 +48,19 @@ public class ActivityOne extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO:
-                // Launch Activity Two
-                // Hint: use Context's startActivity() method
-
-                // Create an intent stating which Activity you would like to start
-
-
-                // Launch the Activity using the intent
-
+                Intent intent = new Intent(getApplicationContext(), ActivityTwo.class);
+                startActivity(intent);
 
             }
         });
 
         // Check for previously saved state
         if (savedInstanceState != null) {
-
             // TODO:
-            // Restore value of counters from saved state
-            // Only need 4 lines of code, one for every count variable
-
-
+            mCreate = savedInstanceState.getInt(CREATE_KEY);
+            mStart = savedInstanceState.getInt(START_KEY);
+            mRestart = savedInstanceState.getInt(RESTART_KEY);
+            mResume = savedInstanceState.getInt(RESUME_KEY);
         }
 
         // TODO: Emit LogCat message
