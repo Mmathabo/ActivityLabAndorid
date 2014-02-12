@@ -4,6 +4,7 @@
     <list default="true" id="bd68b92b-c7c5-42b5-9498-cd75c783c16f" name="Default" comment="" />
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/ActivityOne.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392196975139" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +68,11 @@
       <file leaf-file-name="ActivityOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.1300578">
+            <state line="37" column="0" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.5202312">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1726#2108#0" expanded="true" />
+                <element signature="e#2097#2098#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -403,9 +406,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.1300578">
+        <state line="37" column="0" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.5202312">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1726#2108#0" expanded="true" />
+            <element signature="e#2097#2098#0" expanded="true" />
           </folding>
         </state>
       </provider>

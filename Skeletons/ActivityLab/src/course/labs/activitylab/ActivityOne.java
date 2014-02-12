@@ -1,9 +1,7 @@
 package course.labs.activitylab;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -33,6 +31,10 @@ public class ActivityOne extends Activity {
 
     // TODO: Create variables for each of the TextViews, called
     // mTvCreate, etc.
+    private TextView mTvCreate;
+    private TextView mTvStart;
+    private TextView mTvResume;
+    private TextView mTvRestart;
 
 
     @Override
