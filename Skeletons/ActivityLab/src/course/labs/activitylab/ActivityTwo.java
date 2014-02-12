@@ -52,10 +52,6 @@ public class ActivityTwo extends Activity {
                 Intent intent = new Intent(getApplicationContext(), ActivityTwo.class);
                 finish();
 
-                // This function closes Activity Two
-                // Hint: use Context's finish() method
-
-
             }
         });
 
@@ -63,10 +59,11 @@ public class ActivityTwo extends Activity {
         if (savedInstanceState != null) {
 
             // TODO:
-            // Restore value of counters from saved state
-            // Only need 4 lines of code, one for every count variable
-
-
+            mCreate = savedInstanceState.getInt(CREATE_KEY);
+            mRestart = savedInstanceState.getInt(RESTART_KEY);
+            mResume = savedInstanceState.getInt(RESUME_KEY);
+            mStart = savedInstanceState.getInt(START_KEY);
+          
         }
 
         // TODO: Emit LogCat message

@@ -16,7 +16,7 @@
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/ActivityOne.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392207392805" ignored="false" />
-    <file path="/ActivityTwo.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392208587387" ignored="false" />
+    <file path="/ActivityTwo.java" changelist="bd68b92b-c7c5-42b5-9498-cd75c783c16f" time="1392208878928" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +93,11 @@
       <file leaf-file-name="ActivityTwo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.39330545">
+            <state line="65" column="10" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.50209206">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1578#1940#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1578#1830#0" expanded="true" />
+                <element signature="e#1819#1820#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -495,11 +495,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/course/labs/activitylab/ActivityTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1806" selection-end="1806" vertical-scroll-proportion="0.39330545">
+        <state line="65" column="10" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.50209206">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1578#1940#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1578#1830#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
           </folding>
         </state>
       </provider>
