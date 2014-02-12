@@ -1,6 +1,7 @@
 package course.labs.activitylab;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -47,8 +48,10 @@ public class ActivityTwo extends Activity {
 
             @Override
             public void onClick(View v) {
-
                 // TODO:
+                Intent intent = new Intent(getApplicationContext(), ActivityTwo.class);
+                finish();
+
                 // This function closes Activity Two
                 // Hint: use Context's finish() method
 
